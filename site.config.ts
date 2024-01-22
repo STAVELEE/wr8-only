@@ -2,20 +2,20 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7167d2cf133a4875b7e23caf545ee402',
+  rootNotionPageId: 'ceca6166ee814dfa887028bc526256ac',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'wr8 Demo',
-  domain: 'demo.wr8.in',
-  author: 'Mighil',
-  seotitle: 'Demo Site Created with wr8',
+  name: 'PB Marketing',
+  domain: 'wr8-only.vercel.app',
+  author: 'PB Marketing',
+  seotitle: 'PB Marketing - with Bora',
 
   // open graph metadata (optional)
-  description: 'This is a demo website created with wr8.',
+  description: '인스타팔로워늘리기, 인스타팔로워구매, 인스타한국인팔로워, 유튜브조회수늘리기, 유튜브구독자늘리기, 인스타그램팔로워늘리기, 유튜브구독자구매, 트래픽, 틱톡, 페이스북, 플레이스, 블로그, 쓰레드, 유튜브',
 
   // social usernames (optional)
   twitter: 'jotzilla',
@@ -26,9 +26,9 @@ export default siteConfig({
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: 'https://wr8.in/page-icon.png',
-  defaultPageCover: 'https://wr8.in/page-cover.jpg',
-  defaultPageCoverPosition: 0.5,
+  defaultPageIcon: 'https://cdn.imweb.me/upload/S20231119ec49b4c5c8219/6dd46a6be23da.png',
+  defaultPageCover: 'https://cdn.imweb.me/upload/S20231119ec49b4c5c8219/7647db738fe04.png',
+  defaultPageCoverPosition: 0.3,
 
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
@@ -50,19 +50,19 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'custom',
-  navigationLinks: [   
-    {
-      title: 'Blog',
-      pageId: '588031c1e65d4dfa9d58e2492c9c1b7e'
-    },    
-    {
-      title: 'About',
-      pageId: 'cf2ae3c4839e4e09a1b4a33cc600c409'
-    },
-    {
-      title: 'Contact',
-      pageId: '5f7e562fef814299b10c68c52e920c9a'
-    }
-  ]
+  navigationStyle: 'default',
+ // navigationLinks: [   
+ //   {
+ //     title: 'Blog',
+ //     pageId: '588031c1e65d4dfa9d58e2492c9c1b7e'
+ //   },    
+ //   {
+ //     title: 'About',
+ //     pageId: 'cf2ae3c4839e4e09a1b4a33cc600c409'
+ //   },
+ //   {
+ //     title: 'Contact',
+ //     pageId: '5f7e562fef814299b10c68c52e920c9a'
+ //   }
+ // ]
 })
